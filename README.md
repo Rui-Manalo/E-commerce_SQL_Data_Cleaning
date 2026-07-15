@@ -12,7 +12,7 @@ The script builds a single `Cleaned_data` table through a sequence of CTEs, with
 
 | | |
 |---|---|
-| Raw file | `data/messy_ecommerce_sales_data.csv` |
+| Raw file | `messy_ecommerce_sales_data.csv` |
 | Source table | `messy_data` |
 | Output table | `Cleaned_data` |
 | Rows | 103 |
@@ -70,11 +70,10 @@ select * from Cleaned_data limit 20;
 ## Repository structure
 
 ```
-├── data/
+├── E-commerce_DataCleaning/
+|   ├── data_cleaning_SQL.sql
 │   ├── messy_ecommerce_sales_data.csv   raw data
 │   └── cleaned_data.csv                 output after running the script
-├── sql/
-│   └── data_cleaning.sql
 └── README.md
 ```
 
