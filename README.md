@@ -67,6 +67,13 @@ select * from Cleaned_data limit 20;
 | Quantity | `-3` | `3` |
 | Duplicates | same `order_id` appearing more than once | one row per `order_id` |
 
+## Before Image
+![Project Screenshot](images/before.png)
+
+## After Image
+![Project Screenshot](images/after.png)
+
+
 ## Repository structure
 
 ```
